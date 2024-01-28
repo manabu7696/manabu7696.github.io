@@ -1,5 +1,5 @@
 ---
-title: "Search"
+title: "搜尋 Search"
 slug: "search"
 layout: "search"
 outputs:
