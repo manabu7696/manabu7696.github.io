@@ -2,7 +2,7 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon = "/favicon.png"
+favicon = "/manabu.png"
 
 [footer]
 since = 2020
@@ -19,10 +19,10 @@ subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/avatar.png"
+src = "img/manabu.png"
 
 [article]
-math = false
+math = true
 readingTime = true
 
 [article.license]
