@@ -2,12 +2,12 @@
 title: 利用hugo+github pages+stack模板快速架設部落格
 description: 應該有蠻多人有聽過hugo或hexo這類靜態網頁產生器用來搭配github pages架設部落格的案例，甚至有不少常看到的個人部落格就是利用這種方式搭建的。接下來我們就利用stack模板來學習如何快速建立這樣的網站吧！
 slug: firstPost
-date: 2024-01-28 16:00:00+0000
+date: 2024-01-28 16:00:00+0800
 image: page.png
 categories:
-    - blog
+    - blogs
 tags:
-    - hugo
+    - hugo 
     - github
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---

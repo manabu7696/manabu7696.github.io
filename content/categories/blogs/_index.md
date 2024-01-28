@@ -1,5 +1,5 @@
 ---
-title: blog
+title: blogs
 description: article about creating blog 
 image:
 
