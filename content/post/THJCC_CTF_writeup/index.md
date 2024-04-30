@@ -13,11 +13,15 @@ weight: 1       # You can add weight to some posts to override the default sorti
 ---
 
 ## Welcome
+
 ### Welcome 0x1
 
 由題目可以看到第一部分flag
+
 ![截圖 2024-04-29 中午12.42.28](https://hackmd.io/_uploads/BkwHri2Z0.png)
+
 在規則底下可以發現第二部分flag
+
 ![截圖 2024-04-29 中午12.44.22](https://hackmd.io/_uploads/SyR6Sihb0.png)
 
 ### Discord 0x1
@@ -123,7 +127,9 @@ __import__("os").system("sh")
 ### Simplify
 
 一開始我們使用題目給的測試帳號(test:test1234)登入
-利用開發者工具可以發現有個cookie式用來標示username的
+
+利用開發者工具可以發現有個cookie是用來標示username的
+
 ![截圖 2024-04-29 下午1.14.04](https://hackmd.io/_uploads/BJqrKhhZR.png)
 
 我們將其改成admin，重新整理後可以看到
