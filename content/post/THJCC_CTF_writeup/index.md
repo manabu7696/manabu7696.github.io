@@ -1,8 +1,8 @@
 ---
 title: THJCC CTF write-up
-description: 應該有蠻多人有聽過hugo或hexo這類靜態網頁產生器用來搭配github pages架設部落格的案例，甚至有不少常看到的個人部落格就是利用這種方式搭建的。接下來我們就利用stack模板來學習如何快速建立這樣的網站吧！
-slug: firstPost
-date: 2024-04-30 09:00:00+0800
+description: THJCC CTF 我所有做出來題目的的題解
+slug: THJCC_CTF_writeup
+date: 2024-04-30 10:00:00+0800
 image: page.png
 categories:
     - write-ups
@@ -12,7 +12,6 @@ tags:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-# THJCC write-up
 ## Welcome
 ### Welcome 0x1
 
