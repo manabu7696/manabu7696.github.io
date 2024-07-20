@@ -45,5 +45,6 @@ jobs:
               with:
                   branch: gh-pages
                   folder: public
-                  clean: false
+                  clean: true
+                  clean-exclude: google1f2615d47409f343.html
                   single-commit: true
