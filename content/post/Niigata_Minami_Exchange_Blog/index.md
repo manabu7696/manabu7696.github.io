@@ -1,7 +1,7 @@
 ---
 title: 新潟南高校交流旅行blog
 description: 這次去日本與新潟南高校學生交流以及後續的旅行讓我有許多不一樣的見聞與感想，希望能分享這份可貴的經驗給大家。
-slug: niigataMinamiExchangeBlog
+slug: Niigata_Minami_Exchange_Blog
 date: 2024-07-12 20:00:00+0800
 image: photo/page.jpg
 categories:
