@@ -1,7 +1,7 @@
 ---
 title: AIS3 2024 pre-exam write-up
 description: 雖然拖得有點久，不過這是 AIS3 2024 pre-exam 中所有我做出的題目的 write-up。
-slug: AIS3_2024_PreExam_Writeup
+slug: AIS3_2024_Pre-Exam_Writeup
 date: 2024-08-19 20:00:00+0800
 image: image/page.png
 categories:
