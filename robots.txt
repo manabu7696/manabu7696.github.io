@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /*/
+Allow: /p/*
+Allow: /
+
+Sitemap: https://manabu7696.github.io/sitemap.xml
