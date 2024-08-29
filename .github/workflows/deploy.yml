@@ -47,4 +47,5 @@ jobs:
                   folder: public
                   clean: true
                   clean-exclude: google1f2615d47409f343.html
+                  clean-exclude: robots.txt
                   single-commit: true
