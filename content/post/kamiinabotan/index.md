@@ -10,8 +10,6 @@ tags:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-# 《上伊那牡丹，醉姿如百合》觀後心得
-
 之前在threads上一直滑到張景嵐的圖，剛好最近狀態不好還失眠，所以想說來補一下這部。
 
 總之我會認為這是一部蠻細膩的作品，從鏡頭語言到日語語境，都暗示著兩人之間的情感與關係(其中有些我是看到彈幕才發現)。
