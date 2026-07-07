@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AIS3 on 学的斜槓日記</title><link>https://manabu7696.github.io/tags/ais3/</link><description>Recent content in AIS3 on 学的斜槓日記</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Mon, 19 Aug 2024 20:00:00 +0800</lastBuildDate><atom:link href="https://manabu7696.github.io/tags/ais3/index.xml" rel="self" type="application/rss+xml"/><item><title>AIS3 2024 pre-exam write-up</title><link>https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/</link><pubDate>Mon, 19 Aug 2024 20:00:00 +0800</pubDate><guid>https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/</guid><description>&lt;img src="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/page.png" alt="Featured image of post AIS3 2024 pre-exam write-up" /&gt;&lt;h2 id="welcome"&gt;Welcome
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/welcome.png"
+width="1020"
+height="596"
+srcset="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/welcome_hu_e54df4be47d53bf1.png 480w, https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/welcome_hu_dae3144566b62cd3.png 1024w"
+loading="lazy"
+alt="Welcome題目敘述"
+class="gallery-image"
+data-flex-grow="171"
+data-flex-basis="410px"
+&gt;&lt;/p&gt;
+&lt;p&gt;flag即在題目敘述中&lt;/p&gt;
+&lt;h2 id="three-dimensional-secret"&gt;Three Dimensional Secret
+&lt;/h2&gt;&lt;p&gt;將檔案下載下來解壓縮可以發現是wireshark的檔案&lt;/p&gt;
+&lt;p&gt;可以發現主要的通訊是TCP協議，利用follow功能可以看到傳輸了什麼東西&lt;/p&gt;
+&lt;p&gt;由傳輸內容可以發現是使用Cura生成的gcode&lt;/p&gt;
+&lt;p&gt;將其內容寫入一個新檔案並將其副檔名設為.gcode&lt;/p&gt;
+&lt;p&gt;在cura import這個檔案即可獲得flag&lt;/p&gt;
+&lt;h2 id="emoji-console"&gt;Emoji Console
+&lt;/h2&gt;&lt;p&gt;利用cat及萬用字元可以發現目錄下有一個叫flag的目錄及拿到python源代碼，同時可以知道各種表情符號所代表的文字&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command1.png"
+width="1783"
+height="726"
+srcset="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command1_hu_14d3c990d3887727.png 480w, https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command1_hu_60ae17e18ec86944.png 1024w"
+loading="lazy"
+alt="cat *"
+class="gallery-image"
+data-flex-grow="245"
+data-flex-basis="589px"
+&gt;&lt;/p&gt;
+&lt;p&gt;構建如下指令後可以發現，flag下有個可以讀flag的python檔&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command2.png"
+width="1776"
+height="735"
+srcset="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command2_hu_27ce4f590312e3bb.png 480w, https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command2_hu_5985a9800beee841.png 1024w"
+loading="lazy"
+alt="cd flag;pip:|cat *"
+class="gallery-image"
+data-flex-grow="241"
+data-flex-basis="579px"
+&gt;&lt;/p&gt;
+&lt;p&gt;因此利用以下指令即可讀到flag&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command3.png"
+width="1790"
+height="722"
+srcset="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command3_hu_a806db9755a3874e.png 480w, https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command3_hu_85c1f217b6691b56.png 1024w"
+loading="lazy"
+alt="cd flag;pip:|python *"
+class="gallery-image"
+data-flex-grow="247"
+data-flex-basis="595px"
+&gt;&lt;/p&gt;</description></item></channel></rss>

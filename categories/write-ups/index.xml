@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>write-ups on 学的斜槓日記</title><link>https://manabu7696.github.io/categories/write-ups/</link><description>Recent content in write-ups on 学的斜槓日記</description><generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Mon, 19 Aug 2024 20:00:00 +0800</lastBuildDate><atom:link href="https://manabu7696.github.io/categories/write-ups/index.xml" rel="self" type="application/rss+xml"/><item><title>AIS3 2024 pre-exam write-up</title><link>https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/</link><pubDate>Mon, 19 Aug 2024 20:00:00 +0800</pubDate><guid>https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/</guid><description>&lt;img src="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/page.png" alt="Featured image of post AIS3 2024 pre-exam write-up" /&gt;&lt;h2 id="welcome"&gt;Welcome
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/welcome.png"
+width="1020"
+height="596"
+srcset="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/welcome_hu_e54df4be47d53bf1.png 480w, https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/welcome_hu_dae3144566b62cd3.png 1024w"
+loading="lazy"
+alt="Welcome題目敘述"
+class="gallery-image"
+data-flex-grow="171"
+data-flex-basis="410px"
+&gt;&lt;/p&gt;
+&lt;p&gt;flag即在題目敘述中&lt;/p&gt;
+&lt;h2 id="three-dimensional-secret"&gt;Three Dimensional Secret
+&lt;/h2&gt;&lt;p&gt;將檔案下載下來解壓縮可以發現是wireshark的檔案&lt;/p&gt;
+&lt;p&gt;可以發現主要的通訊是TCP協議，利用follow功能可以看到傳輸了什麼東西&lt;/p&gt;
+&lt;p&gt;由傳輸內容可以發現是使用Cura生成的gcode&lt;/p&gt;
+&lt;p&gt;將其內容寫入一個新檔案並將其副檔名設為.gcode&lt;/p&gt;
+&lt;p&gt;在cura import這個檔案即可獲得flag&lt;/p&gt;
+&lt;h2 id="emoji-console"&gt;Emoji Console
+&lt;/h2&gt;&lt;p&gt;利用cat及萬用字元可以發現目錄下有一個叫flag的目錄及拿到python源代碼，同時可以知道各種表情符號所代表的文字&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command1.png"
+width="1783"
+height="726"
+srcset="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command1_hu_14d3c990d3887727.png 480w, https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command1_hu_60ae17e18ec86944.png 1024w"
+loading="lazy"
+alt="cat *"
+class="gallery-image"
+data-flex-grow="245"
+data-flex-basis="589px"
+&gt;&lt;/p&gt;
+&lt;p&gt;構建如下指令後可以發現，flag下有個可以讀flag的python檔&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command2.png"
+width="1776"
+height="735"
+srcset="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command2_hu_27ce4f590312e3bb.png 480w, https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command2_hu_5985a9800beee841.png 1024w"
+loading="lazy"
+alt="cd flag;pip:|cat *"
+class="gallery-image"
+data-flex-grow="241"
+data-flex-basis="579px"
+&gt;&lt;/p&gt;
+&lt;p&gt;因此利用以下指令即可讀到flag&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command3.png"
+width="1790"
+height="722"
+srcset="https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command3_hu_a806db9755a3874e.png 480w, https://manabu7696.github.io/p/ais3_2024_pre-exam_writeup/image/command3_hu_85c1f217b6691b56.png 1024w"
+loading="lazy"
+alt="cd flag;pip:|python *"
+class="gallery-image"
+data-flex-grow="247"
+data-flex-basis="595px"
+&gt;&lt;/p&gt;</description></item><item><title>THJCC CTF write-up</title><link>https://manabu7696.github.io/p/thjcc_ctf_writeup/</link><pubDate>Tue, 30 Apr 2024 10:00:00 +0800</pubDate><guid>https://manabu7696.github.io/p/thjcc_ctf_writeup/</guid><description>&lt;img src="https://manabu7696.github.io/p/thjcc_ctf_writeup/page.png" alt="Featured image of post THJCC CTF write-up" /&gt;&lt;h2 id="welcome"&gt;Welcome
+&lt;/h2&gt;&lt;h3 id="welcome-0x1"&gt;Welcome 0x1
+&lt;/h3&gt;&lt;p&gt;由題目可以看到第一部分flag&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/BkwHri2Z0.png"
+loading="lazy"
+alt="截圖 2024-04-29 中午12.42.28"
+&gt;&lt;/p&gt;
+&lt;p&gt;在規則底下可以發現第二部分flag&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/SyR6Sihb0.png"
+loading="lazy"
+alt="截圖 2024-04-29 中午12.44.22"
+&gt;&lt;/p&gt;
+&lt;h3 id="discord-0x1"&gt;Discord 0x1
+&lt;/h3&gt;&lt;p&gt;由橫幅及身份組可以發現第一及第三部分flag&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/rkqmDo2bR.png"
+loading="lazy"
+alt="截圖 2024-04-29 中午12.50.08"
+&gt;&lt;/p&gt;
+&lt;p&gt;利用ls可以看到flag.txt&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/rJZ1OohZR.png"
+loading="lazy"
+alt="截圖 2024-04-29 中午12.51.09"
+&gt;&lt;/p&gt;
+&lt;p&gt;用cat獲得第二部分flag&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/r1AmOo3WC.png"
+loading="lazy"
+alt="截圖 2024-04-29 中午12.54.11"
+&gt;&lt;/p&gt;
+&lt;h2 id="misc"&gt;Misc
+&lt;/h2&gt;&lt;h3 id="原神帳號外流"&gt;原神帳號外流
+&lt;/h3&gt;&lt;p&gt;利用wireshark打開封包檔，找到最後一個POST請求(最後的登入，也就是說終於登進了)，可以發現正確的帳號密碼&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/ryuw5mpW0.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;p&gt;登入後即可獲得flag&lt;/p&gt;
+&lt;h3 id="出題者大合照"&gt;出題者大合照！
+&lt;/h3&gt;&lt;p&gt;首先先安裝steghide&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt－get install steghide&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;接著用&lt;code&gt;info&lt;/code&gt;指令查看是否有藏東西&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/ByTUiXaWC.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;p&gt;將其extract出來即可得到flag&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/Sk912Qab0.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;h3 id="pyjail-0"&gt;PyJail-0
+&lt;/h3&gt;&lt;p&gt;首先先連上機器&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/HySBNl6-C.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;p&gt;由source code可以發現會把輸入拿去做eval&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/BJRHBea-0.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;p&gt;利用以下敘述bypass python sandbox並拿到shell&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;__import__(&amp;#34;os&amp;#34;).system(&amp;#34;sh&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;利用ls及cat即可拿到flag&lt;/p&gt;
+&lt;h3 id="i-want-to-go-to-japan"&gt;I want to go to Japan!
+&lt;/h3&gt;&lt;p&gt;由敘述及圖片可以發現是在湯之川的某間神社，將角色丟到google搜索後可以發現&lt;strong&gt;湯倉神社&lt;/strong&gt;的繪馬便是該角色，因此地點即為湯倉神社&lt;/p&gt;
+&lt;h3 id="pyjail-1"&gt;PyJail-1
+&lt;/h3&gt;&lt;p&gt;首先連上機器&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/B1tNpQ6bA.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;p&gt;由source code可以發現payload長度必須小於15個字元才能被執行，因此不能用上述的方法&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/HyXjam6ZR.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;p&gt;首先，我們利用python的內建函數&lt;code&gt;breakpoint()&lt;/code&gt;進入pdb&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/ryjeAQabC.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;p&gt;接著就可以任意使用python敘述，仿造PyJail-0的方法即可拿到flag&lt;/p&gt;
+&lt;h2 id="web"&gt;Web
+&lt;/h2&gt;&lt;h3 id="empty"&gt;Empty
+&lt;/h3&gt;&lt;p&gt;進入後可以發現空空如也，因此我們打開Devtool可以發現如下程式碼&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/HkvFvQ6-R.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;p&gt;在cookie可以發現第一段flag&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/HJJbuQTZ0.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;p&gt;進入註解的網頁可以看到第二段flag&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/BypE_7a-A.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;h3 id="blog"&gt;Blog
+&lt;/h3&gt;&lt;p&gt;首先我們先進login畫面&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/HJAOumpZR.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;p&gt;由上可知，我們要用admin登入，而題目有說密碼有留在哪，因此我們退回到前一頁面可以找到一個很像密碼的&lt;code&gt;iloveshark&lt;/code&gt;，利用其登入後即可得到flag&lt;/p&gt;
+&lt;h3 id="simplify"&gt;Simplify
+&lt;/h3&gt;&lt;p&gt;一開始我們使用題目給的測試帳號(test:test1234)登入&lt;/p&gt;
+&lt;p&gt;利用開發者工具可以發現有個cookie是用來標示username的&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/BJqrKhhZR.png"
+loading="lazy"
+alt="截圖 2024-04-29 下午1.14.04"
+&gt;&lt;/p&gt;
+&lt;p&gt;我們將其改成admin，重新整理後可以看到&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/Bkqe5n2Z0.png"
+loading="lazy"
+alt="截圖 2024-04-29 下午2.10.48"
+&gt;&lt;/p&gt;
+&lt;p&gt;查看原始碼&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/H15Nqnh-A.png"
+loading="lazy"
+alt="截圖 2024-04-29 下午2.11.35"
+&gt;&lt;/p&gt;
+&lt;p&gt;可以從註解看到提示提示我們利用SSTI&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/B14iUa2Z0.png"
+loading="lazy"
+alt="截圖 2024-04-29 下午3.04.29"
+&gt;&lt;/p&gt;
+&lt;p&gt;我們發現渲染內容出現在網址列@後&lt;/p&gt;
+&lt;p&gt;嘗試在網址列輸入&lt;code&gt;{{7*7}}&lt;/code&gt;測試是否有SSTI&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/ByUPjn3ZC.png"
+loading="lazy"
+alt="截圖 2024-04-29 下午2.16.52"
+&gt;&lt;/p&gt;
+&lt;p&gt;從output可以看出有SSTI，因此參考&lt;a class="link" href="https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection" target="_blank" rel="noopener"
+&gt;這個網站&lt;/a&gt;的SSTI payload，找到Python的payload(可由自動分析工具得知)，將渲染內容改成如下&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{ cycler.__init__.__globals__.os.popen(&amp;#39;ls&amp;#39;).read() }}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;利用ls指令看該目錄下有甚麼檔案，可以得到&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/SJZhxgpb0.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;
+&lt;p&gt;引此我們仿造上述方法利用cat拿到flag檔案中的內容&lt;/p&gt;
+&lt;h2 id="crypto"&gt;Crypto
+&lt;/h2&gt;&lt;h3 id="博元婦產科"&gt;博元婦產科
+&lt;/h3&gt;&lt;p&gt;將&lt;code&gt;TUFDVlZ7cFBwLnU0VXJmVGQzay52MEYubVB9Cg==&lt;/code&gt;base64 decode後可以得到&lt;code&gt;MACVV{pPp.u4UrfTd3k.v0F.mP}&lt;/code&gt;，再對其做rot即可得&lt;code&gt;THJCC{wWw.b4BymAk3r.c0M.tW}&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="baby-rsa"&gt;Baby RSA
+&lt;/h3&gt;&lt;p&gt;因為我不會解RSA，所以我直接抄picoCTF類題write-up的code，將數字改成這題的即可得到flag&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://github.com/Dvd848/CTFs/blob/master/2021_picoCTF/Mini_RSA.md" target="_blank" rel="noopener"
+&gt;參考的write-up&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="jpgpng"&gt;JPG^PNG=?
+&lt;/h3&gt;&lt;p&gt;這題用到了signature code的特性，首先我們觀察source code可以發現他只取png的前7個位元組當key加密，而png的signature code剛好是前7個位元組，所以我們可以知道key為&lt;code&gt;[137,80,78,71,13,10,26,10]&lt;/code&gt;，利用上述特性便可以將其解密回去原本的圖片&lt;/p&gt;
+&lt;p&gt;附上solution code:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;cycle&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;xor&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;^&lt;/span&gt;&lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;zip&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;cycle&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;))]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;enc&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;/Users/dennis/infoSecurity/TSJCC/jpgpng/enc.txt&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;rb&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;137&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;80&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;78&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;71&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;13&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;26&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;flag&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nb"&gt;bytearray&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;xor&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;enc&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;/Users/dennis/infoSecurity/TSJCC/jpgpng/flag.jpg&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;wb&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;flag&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="reverse"&gt;Reverse
+&lt;/h2&gt;&lt;h3 id="baby-c"&gt;Baby C
+&lt;/h3&gt;&lt;p&gt;這題題目的source code是將輸入字串的各個元素跟120做xor後跟&lt;code&gt;char a[50]&lt;/code&gt;的各個元素去比對，如果不一樣就是密碼錯誤，那麼反過來只要把&lt;code&gt;char a[50]&lt;/code&gt;的各個元素跟120做xor就是正確答案了。&lt;/p&gt;
+&lt;p&gt;附上solution code:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-cpp" data-lang="cpp"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;argc&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="kt"&gt;char&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;[])&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kt"&gt;char&lt;/span&gt; &lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="mi"&gt;44&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;48&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;59&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;59&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;66&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;87&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;87&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;86&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;23&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;13&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;13&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;26&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;29&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;86&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;27&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;23&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;21&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;87&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;25&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;27&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;71&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;69&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;75&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;32&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;59&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;46&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;53&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;75&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;63&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;75&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;char&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;^&lt;/span&gt;&lt;span class="mi"&gt;120&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;%c&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="pwn"&gt;Pwn
+&lt;/h2&gt;&lt;h3 id="nc"&gt;nc
+&lt;/h3&gt;&lt;p&gt;連上機器並回答完問題即可拿到flag&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hackmd.io/_uploads/B1AaWNpbA.png"
+loading="lazy"
+alt="image"
+&gt;&lt;/p&gt;</description></item></channel></rss>
