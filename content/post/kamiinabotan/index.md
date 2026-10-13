@@ -3,7 +3,7 @@ title: 《上伊那牡丹，醉姿如百合》觀後心得
 description: 內文有一點雷，介意者請勿點進
 slug: kamiinabotan
 date: 2026-07-07 20:00:00+0800
-image: image/page.jpg
+image: https://i.ibb.co/chWGBfTM/page.jpg
 categories:
     - animes
 tags:

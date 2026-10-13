@@ -3,7 +3,7 @@ title: THJCC CTF write-up
 description: THJCC CTF 我所有做出來題目的的題解
 slug: THJCC_CTF_writeup
 date: 2024-04-30 10:00:00+0800
-image: page.png
+image: https://i.ibb.co/wZgtJbpf/page.png
 categories:
     - write-ups
 tags:

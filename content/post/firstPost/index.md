@@ -3,7 +3,7 @@ title: 利用hugo+github pages+stack模板快速架設部落格
 description: 應該有蠻多人有聽過hugo或hexo這類靜態網頁產生器用來搭配github pages架設部落格的案例，甚至有不少常看到的個人部落格就是利用這種方式搭建的。接下來我們就利用stack模板來學習如何快速建立這樣的網站吧！
 slug: firstPost
 date: 2024-01-28 16:00:00+0800
-image: page.png
+image: https://i.ibb.co/GQ4DD3tF/page.png
 categories:
     - blogs
 tags:
@@ -15,14 +15,14 @@ weight: 1       # You can add weight to some posts to override the default sorti
 ## 利用stack模板創建repo
 1. 進入[stack模板頁面](https://github.com/CaiJimmy/hugo-theme-stack-starter)
 2. 按Use this tmeplate
-![複製模板](1.png)
+![複製模板](https://i.ibb.co/pr0F7snG/1.png)
 3. 選擇 create a new repository 
 
-![創建repo](2.png)
+![創建repo](https://i.ibb.co/9C8HGsT/2.png)
 
 4. 在 repository name 輸入 使用者名稱.github.io
 
-![網站名稱](3.png)
+![網站名稱](https://i.ibb.co/kgCXDjfD/3.png)
 
 5. 按下 create repository
 
@@ -30,18 +30,18 @@ weight: 1       # You can add weight to some posts to override the default sorti
 1. 進入剛剛創建的repo
 2. 按下 code ，並選擇 codespace ，按下"+"符號新增 codespace
 
-![code](4.png)
+![code](https://i.ibb.co/kgrQgbVn/4.png)
 
-![codespace](5.png)
+![codespace](https://i.ibb.co/spxhd6LZ/5.png)
 
 3. 等待創建 codespace
-![創建過程](6.png)
+![創建過程](https://i.ibb.co/nN8VP7bX/6.png)
 
 4. 在終端機輸入 hugo server ，測試網站
-![hugo server](7.png)
+![hugo server](https://i.ibb.co/21rct8N8/7.png)
 
 5. 修改設定檔config.toml及其他設定檔
-![設定檔](8.png)
+![設定檔](https://i.ibb.co/qMtNmqTV/8.png)
 
 ## 新增頁面
 * 在 post 新增 blog 文章
@@ -49,30 +49,30 @@ weight: 1       # You can add weight to some posts to override the default sorti
 
 ## 網站上線
 1. 在終端機輸入hugo
-![hugo](9.png)
+![hugo](https://i.ibb.co/jPQZDNyK/9.png)
 
 2. 進入原始檔控制頁面
 
-![原始檔控制頁面](10.png)
+![原始檔控制頁面](https://i.ibb.co/NnZRQdjy/10.png)
 
 3. 將更動包成commit
 
-![commit](11.png)
+![commit](https://i.ibb.co/LVjjD57/11.png)
 
-![commit change](12.png)
+![commit change](https://i.ibb.co/1JLX2LR8/12.png)
 
 記錄此次commit的更動，並按下確認
-![紀錄commit](13.png)
+![紀錄commit](https://i.ibb.co/M55DF608/13.png)
 
 4. 同步到 github
 
-![同步](14.png)
+![同步](https://i.ibb.co/XZzWHL9L/14.png)
 
 5. 等github action 跑完
-![github action](15.png)
+![github action](https://i.ibb.co/zhtB7FmM/15.png)
 
 6. 到 settings 的 pages 頁面修改渲染網頁來源至 gh-page 分支
-![改網頁來源](16.png)
+![改網頁來源](https://i.ibb.co/V0r7DQPP/16.png)
 
 7. 再等 github action 跑完就大功告成
 
